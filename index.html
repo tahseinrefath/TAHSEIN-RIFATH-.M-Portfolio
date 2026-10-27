@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tahsein Rifath M — Portfolio</title>
+<script>document.documentElement.classList.add("js");</script>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- INTRO -->
+  <div id="intro">
+    <div class="intro-icons">
+      <span>&lt;/&gt;</span><span>&#9679;</span><span>&#9737;</span>
+    </div>
+    <h1>Welcome to my<br><b>Portfolio Website</b></h1>
+    <p>Learning by building, one project at a time.</p>
+    <div class="intro-url" id="introUrl"></div>
+    <div class="intro-line"></div>
+  </div>
+
+  <!-- NAVBAR -->
+  <header id="mainHeader">
+    <nav>
+      <div class="brand"><span class="brand-mark">T</span> TAHSEIN &middot; REFATH</div>
+      <ul id="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="clock" id="clock"></div>
+      <button id="menuBtn" type="button" aria-label="open navigation" aria-expanded="false">&#9776;</button>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="marquee">
+      <div class="marquee-track">
+        <span>WEB DEVELOPER &nbsp;&#9670;&nbsp; PYTHON DEVELOPER &nbsp;&#9670;&nbsp; TAHSEIN REFATH &nbsp;&#9670;&nbsp; DATA SCIENCE &nbsp;&#9670;&nbsp; </span>
+        <span>WEB DEVELOPER &nbsp;&#9670;&nbsp; PYTHON DEVELOPER &nbsp;&#9670;&nbsp; TAHSEIN REFATH &nbsp;&#9670;&nbsp; DATA SCIENCE &nbsp;&#9670;&nbsp; </span>
+      </div>
+    </div>
+
+    <div class="hero-inner">
+      <p class="badge"><span class="dot"></span> Open to opportunities</p>
+
+      <h1 class="hero-title">
+        <span class="line line-1">Web &amp;</span>
+        <span class="line line-2">Python Developer</span>
+      </h1>
+
+      <p class="hero-desc">
+        I build clean, functional web applications with Python, Flask and MySQL —
+        turning class projects into real, working software. Fresh graduate in
+        Computer Science with Data Science, ready to contribute and grow.
+      </p>
+
+      <div class="pill-row">
+        <span class="pill">Python</span>
+        <span class="pill">Flask</span>
+        <span class="pill">MySQL</span>
+        <span class="pill">JavaScript</span>
+      </div>
+
+      <div class="hero-actions">
+        <button id="aboutMeBtn" class="btn-solid">About Me</button>
+        <a href="TAHSEIN REFATH M (CV).pdf" download class="btn-outline">Download Resume</a>
+      </div>
+    </div>
+
+    <div class="id-card-wrap">
+      <div class="id-string"></div>
+      <div class="id-card">
+        <img src="images/myphoto.jpg" alt="Tahsein Rifath M" />
+        <div class="id-tag">Name — Tahsein Rifath M</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT (expandable overlay) -->
+  <div id="aboutOverlay" class="about-overlay">
+    <div class="about-card">
+      <button id="aboutBackBtn" class="back-btn">&#8592; Back</button>
+      <h2>About Myself</h2>
+      <div class="about-text">
+        <p>
+          My name is Tahsein Refath M, and I recently completed my Bachelor of
+          Science in Computer Science with Data Science. Somewhere between my
+          first "Hello World" and my final semester project, programming stopped
+          being coursework and became something I actually enjoy doing.
+        </p>
+        <p>
+          I've worked with Python, MySQL, HTML, CSS, JavaScript, Excel and
+          Tableau — and I like putting them together to build things people can
+          actually use. My final year project, the Nehru Canteen Management
+          System, let me take a real campus problem (long food queues) and solve
+          it with a working web app: online ordering, digital tokens, and live
+          order tracking.
+        </p>
+        <p>
+          I also completed a short internship in R Programming with Data
+          Science, where I got hands-on with data cleaning, visualization and
+          statistical analysis using dplyr, ggplot2 and tidyr.
+        </p>
+        <p>
+          I'm a quick learner and I like being handed a problem I don't
+          immediately know how to solve — that's usually where I learn the most.
+          As a fresher, I'm looking for a team where I can keep building that
+          way: taking on real problems, learning from people ahead of me, and
+          contributing wherever I can.
+        </p>
+      </div>
+      <a href="TAHSEIN REFATH M (CV).pdf" download class="btn-solid">&#8681; Download Resume</a>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <section id="skills" class="skills">
+    <p class="eyebrow">— Skills —</p>
+    <h2 class="showcase-title">Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-badge"><img src="images/skills/python.jpg" alt="Python" loading="lazy" /></div>
+      <div class="skill-badge"><img src="images/skills/html.jpg" alt="HTML5" loading="lazy" /></div>
+      <div class="skill-badge"><img src="images/skills/css.jpg" alt="CSS3" loading="lazy" /></div>
+      <div class="skill-badge"><img src="images/skills/javascript.jpg" alt="JavaScript" loading="lazy" /></div>
+      <div class="skill-badge"><img src="images/skills/flask.jpg" alt="Python Flask" loading="lazy" /></div>
+      <div class="skill-badge"><img src="images/skills/mysql.jpg" alt="MySQL" loading="lazy" /></div>
+      <div class="skill-badge"><img src="images/skills/sql.jpg" alt="SQL" loading="lazy" /></div>
+      <div class="skill-badge"><img src="images/skills/excel.jpg" alt="Excel" loading="lazy" /></div>
+      <div class="skill-badge"><img src="images/skills/powerbi.jpg" alt="Power BI" loading="lazy" /></div>
+      <div class="skill-badge"><img src="images/skills/github.jpg" alt="GitHub" loading="lazy" /></div>
+      <div class="skill-badge"><img src="images/skills/vscode.jpg" alt="VS Code" loading="lazy" /></div>
+      <div class="skill-badge"><img src="images/skills/agentic-ai.jpg" alt="Agentic AI" loading="lazy" /></div>
+    </div>
+
+    <div class="prof reveal">
+      <div class="prof-head">
+        <h3>Skill Proficiency</h3>
+        <p>My own assessment of where I stand today &mdash; always learning, always improving.</p>
+      </div>
+      <div class="prof-grid">
+        <div class="prof-card">
+          <h4>Programming &amp; Web</h4>
+          <div class="prof-row" data-level="90" style="--lvl:90%;--c1:#3776ab;--c2:#ffd43b">
+            <div class="prof-top">
+              <img src="images/skills/python.jpg" alt="" width="36" height="36" loading="lazy" />
+              <div class="prof-name"><strong>Python</strong><small class="prof-level"></small></div>
+              <span class="prof-pct"><span class="count" data-target="90">90</span>%</span>
+            </div>
+            <div class="prof-track"><i class="prof-fill"></i></div>
+          </div>
+          <div class="prof-row" data-level="85" style="--lvl:85%;--c1:#e34f26;--c2:#ff8a5c">
+            <div class="prof-top">
+              <img src="images/skills/html.jpg" alt="" width="36" height="36" loading="lazy" />
+              <div class="prof-name"><strong>HTML5</strong><small class="prof-level"></small></div>
+              <span class="prof-pct"><span class="count" data-target="85">85</span>%</span>
+            </div>
+            <div class="prof-track"><i class="prof-fill"></i></div>
+          </div>
+          <div class="prof-row" data-level="80" style="--lvl:80%;--c1:#1572b6;--c2:#4fc3f7">
+            <div class="prof-top">
+              <img src="images/skills/css.jpg" alt="" width="36" height="36" loading="lazy" />
+              <div class="prof-name"><strong>CSS3</strong><small class="prof-level"></small></div>
+              <span class="prof-pct"><span class="count" data-target="80">80</span>%</span>
+            </div>
+            <div class="prof-track"><i class="prof-fill"></i></div>
+          </div>
+          <div class="prof-row" data-level="80" style="--lvl:80%;--c1:#2b7fd4;--c2:#ffd43b">
+            <div class="prof-top">
+              <img src="images/skills/flask.jpg" alt="" width="36" height="36" loading="lazy" />
+              <div class="prof-name"><strong>Python Flask</strong><small class="prof-level"></small></div>
+              <span class="prof-pct"><span class="count" data-target="80">80</span>%</span>
+            </div>
+            <div class="prof-track"><i class="prof-fill"></i></div>
+          </div>
+          <div class="prof-row" data-level="70" style="--lvl:70%;--c1:#f0c808;--c2:#fff176">
+            <div class="prof-top">
+              <img src="images/skills/javascript.jpg" alt="" width="36" height="36" loading="lazy" />
+              <div class="prof-name"><strong>JavaScript</strong><small class="prof-level"></small></div>
+              <span class="prof-pct"><span class="count" data-target="70">70</span>%</span>
+            </div>
+            <div class="prof-track"><i class="prof-fill"></i></div>
+          </div>
+        </div>
+        <div class="prof-card">
+          <h4>Data &amp; Analytics</h4>
+          <div class="prof-row" data-level="75" style="--lvl:75%;--c1:#00758f;--c2:#f29111">
+            <div class="prof-top">
+              <img src="images/skills/mysql.jpg" alt="" width="36" height="36" loading="lazy" />
+              <div class="prof-name"><strong>MySQL</strong><small class="prof-level"></small></div>
+              <span class="prof-pct"><span class="count" data-target="75">75</span>%</span>
+            </div>
+            <div class="prof-track"><i class="prof-fill"></i></div>
+          </div>
+          <div class="prof-row" data-level="70" style="--lvl:70%;--c1:#6d4aff;--c2:#4f9dff">
+            <div class="prof-top">
+              <img src="images/skills/sql.jpg" alt="" width="36" height="36" loading="lazy" />
+              <div class="prof-name"><strong>SQL</strong><small class="prof-level"></small></div>
+              <span class="prof-pct"><span class="count" data-target="70">70</span>%</span>
+            </div>
+            <div class="prof-track"><i class="prof-fill"></i></div>
+          </div>
+          <div class="prof-row" data-level="75" style="--lvl:75%;--c1:#217346;--c2:#4ade80">
+            <div class="prof-top">
+              <img src="images/skills/excel.jpg" alt="" width="36" height="36" loading="lazy" />
+              <div class="prof-name"><strong>Excel</strong><small class="prof-level"></small></div>
+              <span class="prof-pct"><span class="count" data-target="75">75</span>%</span>
+            </div>
+            <div class="prof-track"><i class="prof-fill"></i></div>
+          </div>
+          <div class="prof-row" data-level="65" style="--lvl:65%;--c1:#e8b800;--c2:#ffe066">
+            <div class="prof-top">
+              <img src="images/skills/powerbi.jpg" alt="" width="36" height="36" loading="lazy" />
+              <div class="prof-name"><strong>Power BI</strong><small class="prof-level"></small></div>
+              <span class="prof-pct"><span class="count" data-target="65">65</span>%</span>
+            </div>
+            <div class="prof-track"><i class="prof-fill"></i></div>
+          </div>
+        </div>
+        <div class="prof-card">
+          <h4>Tools &amp; AI</h4>
+          <div class="prof-row" data-level="85" style="--lvl:85%;--c1:#007acc;--c2:#4fc3f7">
+            <div class="prof-top">
+              <img src="images/skills/vscode.jpg" alt="" width="36" height="36" loading="lazy" />
+              <div class="prof-name"><strong>VS Code</strong><small class="prof-level"></small></div>
+              <span class="prof-pct"><span class="count" data-target="85">85</span>%</span>
+            </div>
+            <div class="prof-track"><i class="prof-fill"></i></div>
+          </div>
+          <div class="prof-row" data-level="70" style="--lvl:70%;--c1:#8957e5;--c2:#c4a3ff">
+            <div class="prof-top">
+              <img src="images/skills/github.jpg" alt="" width="36" height="36" loading="lazy" />
+              <div class="prof-name"><strong>GitHub</strong><small class="prof-level"></small></div>
+              <span class="prof-pct"><span class="count" data-target="70">70</span>%</span>
+            </div>
+            <div class="prof-track"><i class="prof-fill"></i></div>
+          </div>
+          <div class="prof-row" data-level="60" style="--lvl:60%;--c1:#8b5cf6;--c2:#38bdf8">
+            <div class="prof-top">
+              <img src="images/skills/agentic-ai.jpg" alt="" width="36" height="36" loading="lazy" />
+              <div class="prof-name"><strong>Agentic AI</strong><small class="prof-level"></small></div>
+              <span class="prof-pct"><span class="count" data-target="60">60</span>%</span>
+            </div>
+            <div class="prof-track"><i class="prof-fill"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects">
+    <p class="eyebrow">— Projects —</p>
+    <h2 class="showcase-title">Featured Projects</h2>
+    <p class="section-lead">Two full-stack web applications built with Python, Flask and MySQL &mdash; each solving a real everyday problem.</p>
+
+    <!-- Project 1 -->
+    <article class="project-feature reveal">
+      <div class="project-visual">
+        <div class="project-media">
+          <!-- Replace images/projects/canteen.jpg with your own screenshot (same file name) -->
+          <img src="images/projects/canteen.jpg" alt="Nehru Canteen Management System screenshot" loading="lazy" />
+          <span class="project-badge">&#127942; 1st Place &middot; Celestra '26</span>
+        </div>
+        <div class="project-stats">
+          <div><strong>1st</strong><span>Celestra '26 Software Expo</span></div>
+          <div><strong>Token</strong><span>Based order flow</span></div>
+          <div><strong>Full-stack</strong><span>Flask + MySQL</span></div>
+        </div>
+        <div class="pill-row">
+          <span class="pill">Python</span>
+          <span class="pill">Flask</span>
+          <span class="pill">MySQL</span>
+          <span class="pill">HTML</span>
+          <span class="pill">CSS</span>
+          <span class="pill">JavaScript</span>
+        </div>
+      </div>
+      <div class="project-body">
+        <p class="project-kicker">Project 01 &middot; Final-year project</p>
+        <h3>Nehru Canteen Management System</h3>
+        <p class="project-summary">
+          A web-based canteen system for Nehru College that replaces long counter
+          queues with online ordering, digital tokens and live order tracking.
+        </p>
+        <ul class="project-points">
+          <li>Students and staff order food online and make payments</li>
+          <li>Every order gets a digital token for quick pick-up</li>
+          <li>Live order tracking with food category management</li>
+          <li>Reports for canteen staff to review sales and orders</li>
+        </ul>
+        <div class="project-actions">
+          <button type="button" class="btn-solid js-open-project" data-template="tpl-canteen">View Full Details &#8594;</button>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 2 -->
+    <article class="project-feature flip reveal">
+      <div class="project-visual">
+        <div class="project-media">
+          <!-- Replace images/projects/lostfound.jpg with your own screenshot (same file name) -->
+          <img src="images/projects/lostfound.jpg" alt="Digital Lost and Found System screenshot" loading="lazy" />
+          <span class="project-badge">&#128269; Smart Matching</span>
+        </div>
+        <div class="project-stats">
+          <div><strong>13</strong><span>Interface languages</span></div>
+          <div><strong>5</strong><span>Weighted match factors</span></div>
+          <div><strong>3</strong><span>Match levels</span></div>
+        </div>
+        <div class="pill-row">
+          <span class="pill">Python</span>
+          <span class="pill">Flask</span>
+          <span class="pill">MySQL</span>
+          <span class="pill">Jinja2</span>
+          <span class="pill">HTML</span>
+          <span class="pill">CSS</span>
+          <span class="pill">JavaScript</span>
+        </div>
+      </div>
+      <div class="project-body">
+        <p class="project-kicker">Project 02 &middot; Full-stack web application</p>
+        <h3>Digital Lost &amp; Found System</h3>
+        <p class="project-summary">
+          One central platform to report lost and found items, manage reports from a
+          dashboard, and automatically find possible matches with a similarity score.
+        </p>
+        <ul class="project-points">
+          <li>Report lost or found items with details and an optional image</li>
+          <li>Smart matching compares name, category, location, description and date</li>
+          <li>Personal dashboard to edit or delete your own reports</li>
+          <li>13-language interface, including right-to-left Arabic</li>
+        </ul>
+        <div class="project-actions">
+          <button type="button" class="btn-solid js-open-project" data-template="tpl-lostfound">View Full Details &#8594;</button>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- EXPERIENCE & EDUCATION -->
+  <section id="experience" class="journey">
+    <p class="eyebrow">— Experience &amp; Education —</p>
+    <h2 class="showcase-title">My Journey So Far</h2>
+    <p class="section-lead">Hands-on data experience from my internship, backed by a degree in Computer Science with Data Science.</p>
+
+    <div class="journey-grid">
+      <div class="journey-col">
+        <h3 class="journey-head"><span>&#128188;</span> Experience</h3>
+        <article class="tl-card reveal">
+          <div class="tl-meta">
+            <span class="tl-date">24 Nov &ndash; 8 Dec 2024</span>
+            <span class="tl-chip">2-week internship</span>
+          </div>
+          <h4>R Programming Intern</h4>
+          <p class="tl-org">Npro Technologies &middot; Remote &middot; Bangalore</p>
+          <ul class="tl-points">
+            <li>Cleaned and prepared datasets for analysis in R</li>
+            <li>Created data visualizations with ggplot2</li>
+            <li>Carried out statistical analysis to find patterns in data</li>
+            <li>Transformed and reshaped data using dplyr and tidyr</li>
+          </ul>
+          <div class="pill-row">
+            <span class="pill">R</span>
+            <span class="pill">dplyr</span>
+            <span class="pill">ggplot2</span>
+            <span class="pill">tidyr</span>
+            <span class="pill">Data Cleaning</span>
+            <span class="pill">Data Visualization</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="journey-col">
+        <h3 class="journey-head"><span>&#127891;</span> Education</h3>
+        <article class="tl-card reveal">
+          <div class="tl-meta">
+            <span class="tl-date">Class of 2026</span>
+            <span class="tl-chip">CGPA 7.1 / 10</span>
+          </div>
+          <h4>B.Sc. Computer Science with Data Science</h4>
+          <p class="tl-org">Nehru Arts and Science College &middot; Bharathiar University</p>
+          <ul class="tl-points">
+            <li>Programming, databases, web development and data analysis</li>
+            <li>Final-year project: Nehru Canteen Management System &mdash; 1st place at Celestra '26</li>
+            <li>Additional projects and certifications in Python, Java, IoT, R and MERN</li>
+          </ul>
+          <div class="pill-row">
+            <span class="pill">Python</span>
+            <span class="pill">SQL</span>
+            <span class="pill">Web Development</span>
+            <span class="pill">Data Analysis</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- HIGHLIGHTS AT A GLANCE -->
+  <section id="achievements" class="achieve">
+    <p class="eyebrow">— At a Glance —</p>
+    <h2 class="showcase-title">Highlights at a Glance</h2>
+
+    <div class="counter-strip reveal">
+      <div class="counter"><strong><span class="count" data-target="2">2</span></strong><span>Full-stack projects</span></div>
+      <div class="counter"><strong><span class="count" data-target="5">5</span></strong><span>Certifications</span></div>
+      <div class="counter"><strong><span class="count" data-target="12">12</span></strong><span>Tools &amp; technologies</span></div>
+      <div class="counter"><strong><span class="count" data-target="13">13</span></strong><span>Languages in my Lost &amp; Found app</span></div>
+    </div>
+
+    <div class="achieve-grid">
+      <article class="achieve-card reveal">
+        <div class="achieve-icon" aria-hidden="true">&#127942;</div>
+        <h3>Software Expo Winner</h3>
+        <p>First place at the Celestra '26 Technical Fest for the Nehru Canteen Management System.</p>
+      </article>
+      <article class="achieve-card reveal">
+        <div class="achieve-icon" aria-hidden="true">&#128736;</div>
+        <h3>Full-Stack Builder</h3>
+        <p>Built two complete Flask + MySQL web applications &mdash; from database design to a responsive interface.</p>
+      </article>
+      <article class="achieve-card reveal">
+        <div class="achieve-icon" aria-hidden="true">&#128202;</div>
+        <h3>Data-Ready</h3>
+        <p>R Programming internship plus the IBM Python for Data Science certification &mdash; practice in cleaning, analysing and visualising data.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- CERTIFICATES -->
+  <section id="certificates" class="certs">
+    <p class="eyebrow">— Certifications —</p>
+    <h2 class="showcase-title">Certifications &amp; Achievements</h2>
+
+    <div class="cert-feature reveal">
+      <div class="cert-trophy" aria-hidden="true">&#127942;</div>
+      <div>
+        <p class="cert-tag">Achievement &middot; 2026</p>
+        <h3>Software Expo &mdash; First Place</h3>
+        <p>Celestra '26 Technical Fest &middot; Nehru Arts and Science College</p>
+      </div>
+    </div>
+
+    <div class="cert-grid">
+      <div class="cert-card reveal">
+        <span class="cert-year">2024</span>
+        <h3>Python for Data Science, AI &amp; Development</h3>
+        <p>IBM &middot; Coursera</p>
+      </div>
+      <div class="cert-card reveal">
+        <span class="cert-year">2024</span>
+        <h3>Introduction to Java</h3>
+        <p>LearnQuest &middot; Coursera</p>
+      </div>
+      <div class="cert-card reveal">
+        <span class="cert-year">2025</span>
+        <h3>IoT Edge Computing and IoT Analytics</h3>
+        <p>Infosys Springboard</p>
+      </div>
+      <div class="cert-card reveal">
+        <span class="cert-year">2025</span>
+        <h3>R Programming</h3>
+        <p>Spoken Tutorial, IIT Bombay</p>
+      </div>
+      <div class="cert-card reveal">
+        <span class="cert-year">2025</span>
+        <h3>Full Stack Development using MERN</h3>
+        <p>Nehru Arts and Science College</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ROLES I'M TARGETING -->
+  <section id="roles" class="roles">
+    <p class="eyebrow">— Open to work —</p>
+    <h2 class="showcase-title">Roles I'm Targeting</h2>
+    <p class="section-lead">As a fresher, here is where my skills and projects fit best.</p>
+
+    <div class="roles-grid">
+      <article class="role-card reveal">
+        <div class="role-icon" aria-hidden="true">&#128013;</div>
+        <h3>Python Developer</h3>
+        <p>Backend logic and web apps with Python, Flask and MySQL.</p>
+        <div class="pill-row">
+          <span class="pill">Python</span><span class="pill">Flask</span><span class="pill">MySQL</span><span class="pill">JavaScript</span>
+        </div>
+        <a class="role-link" href="#projects">See: Digital Lost &amp; Found &rarr;</a>
+      </article>
+      <article class="role-card reveal">
+        <div class="role-icon" aria-hidden="true">&#128187;</div>
+        <h3>Software Developer</h3>
+        <p>Full-stack development, from the database to a clean, responsive interface.</p>
+        <div class="pill-row">
+          <span class="pill">HTML</span><span class="pill">CSS</span><span class="pill">JavaScript</span><span class="pill">Flask</span><span class="pill">GitHub</span>
+        </div>
+        <a class="role-link" href="#projects">See: Nehru Canteen System &rarr;</a>
+      </article>
+      <article class="role-card reveal">
+        <div class="role-icon" aria-hidden="true">&#128200;</div>
+        <h3>Data Analyst</h3>
+        <p>Cleaning, analysing and visualising data to answer real questions.</p>
+        <div class="pill-row">
+          <span class="pill">SQL</span><span class="pill">Excel</span><span class="pill">Power BI</span><span class="pill">R</span>
+        </div>
+        <a class="role-link" href="#experience">See: R Programming internship &rarr;</a>
+      </article>
+    </div>
+
+    <div class="roles-cta reveal">
+      <a href="#contact" class="btn-solid">Contact Me</a>
+      <a href="TAHSEIN REFATH M (CV).pdf" download class="btn-outline">Download Resume</a>
+    </div>
+  </section>
+
+  <!-- PROJECT DETAIL MODAL -->
+  <div id="projectModal" class="proj-modal" role="dialog" aria-modal="true" aria-labelledby="pmTitle" aria-hidden="true">
+    <div class="proj-modal-card">
+      <div class="pm-top">
+        <div>
+          <p class="pm-kicker" id="pmKicker"></p>
+          <h3 id="pmTitle"></h3>
+        </div>
+        <button type="button" id="pmClose" class="pm-close" aria-label="Close project details">&times;</button>
+      </div>
+      <div class="pm-body" id="pmBody"></div>
+    </div>
+  </div>
+
+  <!-- Project detail content (edit text here) -->
+  <template id="tpl-canteen" data-kicker="Project 01 · Final-year project" data-title="Nehru Canteen Management System">
+    <section class="pm-section">
+      <h4>Overview</h4>
+      <p>A web-based canteen management system built for Nehru College. Students and staff can browse food categories, order online, pay, and receive a digital token &mdash; so nobody has to stand in a long queue just to place or collect an order.</p>
+    </section>
+    <section class="pm-section">
+      <h4>The problem</h4>
+      <ul class="pm-list">
+        <li>Long food queues at the canteen counter during busy hours</li>
+        <li>Orders taken and tracked manually, which slows everyone down</li>
+      </ul>
+    </section>
+    <section class="pm-section">
+      <h4>What the system does</h4>
+      <div class="pm-cards">
+        <div class="pm-card"><strong>Online ordering</strong><span>Browse categories and place orders from any device</span></div>
+        <div class="pm-card"><strong>Payments</strong><span>Pay online as part of the order flow</span></div>
+        <div class="pm-card"><strong>Digital tokens</strong><span>Token-based order management for quick pick-up</span></div>
+        <div class="pm-card"><strong>Live tracking</strong><span>Follow an order from placed to ready</span></div>
+        <div class="pm-card"><strong>Category management</strong><span>Staff keep food categories and items up to date</span></div>
+        <div class="pm-card"><strong>Reports</strong><span>Generate reports to review canteen activity</span></div>
+      </div>
+    </section>
+    <section class="pm-section">
+      <h4>Tech stack</h4>
+      <div class="pill-row">
+        <span class="pill">Python</span><span class="pill">Flask</span><span class="pill">MySQL</span>
+        <span class="pill">HTML</span><span class="pill">CSS</span><span class="pill">JavaScript</span>
+      </div>
+    </section>
+    <section class="pm-section">
+      <h4>Outcome</h4>
+      <p>Won <b>first place at the Celestra '26 Technical Fest &mdash; Software Expo</b> at Nehru Arts and Science College, and gave me hands-on experience building a complete full-stack application from database to interface.</p>
+    </section>
+  </template>
+
+  <template id="tpl-lostfound" data-kicker="Project 02 · Full-stack web application" data-title="Digital Lost &amp; Found System">
+    <section class="pm-section">
+      <h4>Overview</h4>
+      <p>A centralized web application for reporting lost and found items, managing reports, and automatically identifying possible matches. Users create an account, report a lost or found item with location, date, contact details and an optional image, and track everything from a personal dashboard.</p>
+    </section>
+    <section class="pm-section">
+      <h4>The problem</h4>
+      <ul class="pm-list">
+        <li>Lost and found information is scattered across notice boards, messages and word of mouth</li>
+        <li>People often don't know where to report a lost or found item</li>
+        <li>Searching manually for a matching item takes a long time and details get missed</li>
+      </ul>
+    </section>
+    <section class="pm-section">
+      <h4>How it works</h4>
+      <ol class="pm-steps">
+        <li><b>1</b> Register / log in</li>
+        <li><b>2</b> Report lost or found</li>
+        <li><b>3</b> Flask validates &amp; saves to MySQL</li>
+        <li><b>4</b> Matching service compares records</li>
+        <li><b>5</b> Matches shown with a score</li>
+      </ol>
+    </section>
+    <section class="pm-section">
+      <h4>Smart matching engine</h4>
+      <p>Each lost item is compared with found items using a weighted similarity score. Item names and descriptions use word-set similarity; the same category scores full marks; dates score 100 for the same day and drop by 25 for each extra day (0 after three days).</p>
+      <div class="bars">
+        <div class="bar"><span class="bar-label">Item name</span><div class="bar-track"><i style="--w:100%"></i></div><span class="bar-val">40%</span></div>
+        <div class="bar"><span class="bar-label">Category</span><div class="bar-track"><i style="--w:50%"></i></div><span class="bar-val">20%</span></div>
+        <div class="bar"><span class="bar-label">Location</span><div class="bar-track"><i style="--w:50%"></i></div><span class="bar-val">20%</span></div>
+        <div class="bar"><span class="bar-label">Description</span><div class="bar-track"><i style="--w:25%"></i></div><span class="bar-val">10%</span></div>
+        <div class="bar"><span class="bar-label">Date</span><div class="bar-track"><i style="--w:25%"></i></div><span class="bar-val">10%</span></div>
+      </div>
+      <div class="levels">
+        <span class="level high"><b>High</b> 75% and above</span>
+        <span class="level medium"><b>Medium</b> 50% &ndash; 74%</span>
+        <span class="level low"><b>Possible</b> 40% &ndash; 49%</span>
+      </div>
+      <p class="pm-note">Minimum match threshold is 40%, and up to 10 matches are shown per item.</p>
+    </section>
+    <section class="pm-section">
+      <h4>Main modules</h4>
+      <div class="pill-row">
+        <span class="pill">Home</span><span class="pill">Registration</span><span class="pill">Login</span>
+        <span class="pill">Dashboard</span><span class="pill">Report Lost</span><span class="pill">Report Found</span>
+        <span class="pill">Smart Matching</span><span class="pill">Matches</span><span class="pill">Item Card</span>
+        <span class="pill">Language Support</span>
+      </div>
+    </section>
+    <section class="pm-section">
+      <h4>Tech stack</h4>
+      <div class="pm-cards">
+        <div class="pm-card"><strong>Python + Flask</strong><span>Backend routes, sessions, templates and request handling</span></div>
+        <div class="pm-card"><strong>MySQL</strong><span>Relational storage for users and lost/found records</span></div>
+        <div class="pm-card"><strong>HTML, CSS, JavaScript</strong><span>Responsive pages, validation, image preview, password visibility</span></div>
+        <div class="pm-card"><strong>Jinja2 + JSON</strong><span>Dynamic pages and translation files for 13 languages</span></div>
+      </div>
+    </section>
+    <section class="pm-section">
+      <h4>Database</h4>
+      <p>Three tables &mdash; <b>users</b>, <b>lost_items</b> and <b>found_items</b>. One user can create many lost and found reports; the <code>user_id</code> field links each report to its owner.</p>
+    </section>
+    <section class="pm-section">
+      <h4>Security &amp; validation</h4>
+      <ul class="pm-list">
+        <li>Login-protected routes check for an active user session</li>
+        <li>Edit and delete actions verify both the item ID and the logged-in user ID</li>
+        <li>Uploaded filenames are sanitized and saved with unique names; only allowed image types, max 5 MB</li>
+        <li>Required fields validated, with 10-digit phone numbers; database queries use parameterized values</li>
+      </ul>
+    </section>
+    <section class="pm-section">
+      <h4>Languages</h4>
+      <p>English, Tamil, Hindi, Telugu, Malayalam, Kannada, French, German, Spanish, Arabic, Japanese, Chinese and Korean &mdash; with Arabic displayed right-to-left.</p>
+    </section>
+    <section class="pm-section">
+      <h4>Limitations &amp; next steps</h4>
+      <p>Matching is based on text, category, location, description and date &mdash; a score shows a <i>possible</i> match, not proof, and it is not image recognition. Planned improvements:</p>
+      <div class="pill-row">
+        <span class="pill">Image similarity</span><span class="pill">Email / SMS alerts</span><span class="pill">Map search</span>
+        <span class="pill">Admin panel</span><span class="pill">Verified claims</span>
+      </div>
+    </section>
+  </template>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="contact-left">
+      <h2>Let's work together</h2>
+      <p>
+        Have a role, project, or opportunity in mind? Send a message and
+        I'll get back to you as soon as I can.
+      </p>
+      <div class="contact-icons">
+        <a href="mailto:m.tahseinrifath@gmail.com" aria-label="Email">&#9993;</a>
+        <a href="https://wa.me/919789530496" target="_blank" aria-label="WhatsApp">&#9742;</a>
+        <a href="https://linkedin.com/in/tahsein-refath-m" target="_blank" aria-label="LinkedIn">in</a>
+      </div>
+    </div>
+
+    <div class="contact-right">
+      <h3>Send Message <span>DIRECT</span></h3>
+      <p class="contact-sub">Opens directly in WhatsApp — quick, no spam, real reply.</p>
+      <form id="waForm">
+        <input type="text" id="waName" placeholder="Your Name" required />
+        <textarea id="waMsg" placeholder="Write your message..." rows="5" required></textarea>
+        <button type="submit">Send Message &#10148;</button>
+      </form>
+      <p class="reply-note"><span class="dot"></span> Usually replies within a few hours</p>
+    </div>
+  </section>
+
+  <footer>
+    <p class="follow-label">Follow Me</p>
+    <div class="social-row">
+      <a href="https://linkedin.com/in/tahsein-refath-m" target="_blank" aria-label="LinkedIn">in</a>
+      <a href="mailto:m.tahseinrifath@gmail.com" aria-label="Email">&#9993;</a>
+      <a href="https://wa.me/919789530496" target="_blank" aria-label="WhatsApp">&#9742;</a>
+    </div>
+    <p class="copyright">Copyright &copy; 2026 All Rights Reserved | Built by <b>Tahsein Rifath M</b></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
